@@ -2,3 +2,30 @@
   font-family: sans-serif;
   text-align: center;
 }
+
+.footer_bottom {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background: #1e3e75;
+  padding: 20px;
+}
+
+.slick-slider {
+  height: 300px;
+}
+
+.slick-list {
+  height: 300px;
+}
+
+.slick-slide img {
+  display: block;
+  height: 300px;
+  object-fit: cover;
+}

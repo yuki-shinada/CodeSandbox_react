@@ -1,21 +1,21 @@
-import { Page1 } from "../Page1";
-import { Page1DetailA } from "../Page1DetailA";
-import { Page1DetailB } from "../Page1DetailB";
+import { Page1 } from "../pages/Page1";
+import { Page1DetailA } from "../pages/Page1DetailA";
+import { Page1DetailB } from "../pages/Page1DetailB";
 
 export const Page1Routes = [
   {
     path: "/",
     exact: true,
-    children: <Page1 />
+    children: <Page1 />,
   },
   {
     path: "/detailA",
     exact: false,
-    children: <Page1DetailA />
+    children: <Page1DetailA />,
   },
   {
     path: "/detailB",
     exact: false,
-    children: <Page1DetailB />
-  }
+    children: <Page1DetailB />,
+  },
 ];

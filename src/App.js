@@ -1,4 +1,5 @@
 import { BrowserRouter, Link } from "react-router-dom";
+import { Footer } from "./pages/Footer";
 
 import { Router } from "./router/Router";
 import "./styles.css";
@@ -15,6 +16,9 @@ export default function App() {
         <br />
       </div>
       <Router />
+      <div className="footer_bottom">
+        <Footer />
+      </div>
     </BrowserRouter>
   );
 }
